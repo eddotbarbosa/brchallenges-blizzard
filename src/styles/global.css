@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .game-card:hover .game-card-image {
+    transform: scale(1.25) translatey(-1.5rem);
+  }
+
+  .game-card:hover .game-card-shadow {
+    box-shadow: inset 0px -98px 102px -36px rgba(0,0,0,0.97);
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.70);
+    z-index: 30;
+  }
+
+  .modal-dialog {
+    padding: 10px;
+    max-height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+  .modal-dialog::-webkit-scrollbar {
+    display: none;
+  }
+}
