@@ -65,7 +65,15 @@ const Navbar = function ({handleModal}: NavbarProps) {
                 <button className='text-white font-medium mr-[34px] flex items-center hover:text-custom-blue' onClick={handleEsportsDropdown}>
                   Esportes
                   <div className='ml-[16px]'>
-                    <img src={arrowDowm} alt="arrow down icon" />
+                  {esportsDropdown ? (
+                      <>
+                        <img src={arrowUp} alt="arrow up icon" />
+                      </>
+                    ) : (
+                      <>
+                        <img src={arrowDowm} alt="arrow down icon" />
+                      </>
+                    )}
                   </div>
                 </button>
               </li>
