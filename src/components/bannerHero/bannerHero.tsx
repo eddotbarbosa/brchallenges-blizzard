@@ -75,10 +75,10 @@ const BannerHero = function () {
 
   return (
     <div className={`${games[selectedGame]?.bg} bg-cover bg-center w-full h-[736px] sm:h-[622px] flex justify-center items-center transition-all ease-in-out delay-75 duration-700 px-[41px] sm:px-[21px]`}>
-      <div className='flex justify-center items-center max-w-[1312px] w-full'>
+      <div className='flex justify-center items-center max-w-[1312px] w-full relative'>
         <div className='flex w-full justify-between items-center'>
-          <div className='flex md:flex-wrap sm:mt-[51px]'>
-            <div className='flex flex-col md:flex-row md:order-2 md:justify-center md:items-center mr-[160px] sm:mr-0'>
+          <div className='flex md:flex-wrap sm:mt-[51px] z-10 max-w-[770px] w-full justify-between'>
+            <div className='flex flex-col md:flex-row md:order-2 md:justify-center md:items-center md:mr-0'>
               <button className='mb-[20px] md:mb-0 md:mr-[20px]' onClick={() => {setSelectedGame('diabloIV')}}>
                 <div>
                   <img className={`${selectedGame === 'diabloIV' ? null : 'grayscale'}`} src={diabloIVicon} alt="diablo 4 icon" />
@@ -113,7 +113,7 @@ const BannerHero = function () {
               </button>
             </div>
           </div>
-          <div className='flex flex-col items-end h-[500px] justify-between mt-[70px] sm:hidden'>
+          <div className='flex flex-col items-end h-[500px] justify-between mt-[70px] sm:hidden absolute right-0'>
             <div className=''>
               <img src={games[selectedGame].logo} alt="diablo 4 logo" />
             </div>

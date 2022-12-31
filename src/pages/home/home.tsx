@@ -23,7 +23,7 @@ const Home = function () {
   };
 
   return (
-    <div>
+    <div className='overflow-hidden'>
       <Navbar handleModal={handleLoginModal} />
       <BannerHero />
       <ExclusiveGames />

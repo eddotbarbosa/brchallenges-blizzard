@@ -39,8 +39,8 @@ const Navbar = function ({handleModal}: NavbarProps) {
   return (
     <div className={`flex justify-center items-center w-full h-[96px] absolute top-0 border-b-[1.5px] border-custom-gray${(gamesDropdown || esportsDropdown) ? ' bg-custom-black-transparent' : ''}`}>
       <div className='max-w-[1312px] w-full flex justify-between items-center px-[45px] sm:px-[21px]'>
-        <div className='flex items-center'>
-          <div className='mr-[112.3px] md:mr-0'>
+        <div className='flex items-center max-w-[704px] w-full justify-between'>
+          <div className='mr-3'>
             <img src={blizzardLogo} alt="blizzard logo" />
           </div>
           <div className='md:hidden'>
@@ -48,7 +48,7 @@ const Navbar = function ({handleModal}: NavbarProps) {
               <li>
                 <button className='text-white font-medium mr-[34px] flex items-center hover:text-custom-blue' onClick={handleGamesDropdown}>
                   Jogos
-                  <div className='ml-[16px]'>
+                  <div className='ml-[16px] min-w-[10px]'>
                     {gamesDropdown ? (
                       <>
                         <img src={arrowUp} alt="arrow up icon" />
@@ -64,7 +64,7 @@ const Navbar = function ({handleModal}: NavbarProps) {
               <li>
                 <button className='text-white font-medium mr-[34px] flex items-center hover:text-custom-blue' onClick={handleEsportsDropdown}>
                   Esportes
-                  <div className='ml-[16px]'>
+                  <div className='ml-[16px] min-w-[10px]'>
                   {esportsDropdown ? (
                       <>
                         <img src={arrowUp} alt="arrow up icon" />
@@ -89,7 +89,7 @@ const Navbar = function ({handleModal}: NavbarProps) {
             </ul>
           </div>
         </div>
-        <div className='flex sm:hidden'>
+        <div className='flex sm:hidden md:mr-3'>
           <button className='text-white text-[14px] font-medium mr-[16px] w-[115.69px] h-[41px] border border-gray-300 rounded-[3.2px]'>Criar conta</button>
           <button
           onClick={handleModal}
@@ -101,7 +101,7 @@ const Navbar = function ({handleModal}: NavbarProps) {
             Logar
           </button>
         </div>
-        <button className='hidden md:block ml-[41px] sm:ml-0'>
+        <button className='hidden md:block sm:ml-0 min-w-[25.61px]'>
           <img src={menuIcon} alt="menuIcon" />
         </button>
       </div>
