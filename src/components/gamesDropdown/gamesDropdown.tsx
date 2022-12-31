@@ -34,67 +34,67 @@ const GamesDropdown = function ({display}: GamesDropdownProps) {
           <div className='w-full max-w-[69.4px] group-hover:scale-125'>
             <img className='w-full' src={overwatch2Icon} alt="overwatch 2 icon" />
           </div>
-          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray hover:text-white'>Overwatch® 2</span>
+          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray group-hover:text-white'>Overwatch® 2</span>
         </div>
         <div className='hover:bg-black w-full h-[176px] flex flex-col justify-center items-center rounded-[4px] group'>
           <div className='w-full max-w-[69.4px] group-hover:scale-125'>
             <img className='w-full' src={wowIcon} alt="wolrd of warcraft icon" />
           </div>
-          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray hover:text-white'>World of Warcraft®</span>
+          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray group-hover:text-white'>World of Warcraft®</span>
         </div>
         <div className='hover:bg-black w-full h-[176px] flex flex-col justify-center items-center rounded-[4px] group'>
           <div className='w-full max-w-[69.4px] group-hover:scale-125'>
             <img className='w-full' src={hearthstoneIcon} alt="hearthstone icon" />
           </div>
-          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray hover:text-white'>Hearthstone</span>
+          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray group-hover:text-white'>Hearthstone</span>
         </div>
         <div className='hover:bg-black w-full h-[176px] flex flex-col justify-center items-center rounded-[4px] group'>
           <div className='w-full max-w-[69.4px] group-hover:scale-125'>
             <img className='w-full' src={heroesOfTheStorm} alt="heroes of the storm icon" />
           </div>
-          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray hover:text-white'>Heroes of the storm®</span>
+          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray group-hover:text-white'>Heroes of the storm®</span>
         </div>
         <div className='hover:bg-black w-full h-[176px] flex flex-col justify-center items-center rounded-[4px] group'>
           <div className='w-full max-w-[69.4px] group-hover:scale-125'>
             <img className='w-full' src={warcraft3Reforged} alt="warcraft 3 icon" />
           </div>
-          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray hover:text-white'>Warcraft® III Reforged</span>
+          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray group-hover:text-white'>Warcraft® III Reforged</span>
         </div>
         <div className='hover:bg-black w-full h-[176px] flex flex-col justify-center items-center rounded-[4px] group'>
           <div className='w-full max-w-[69.4px] group-hover:scale-125'>
             <img className='w-full' src={diablo4} alt="diablo 4 icon" />
           </div>
-          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray hover:text-white'>Diablo® IV</span>
+          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray group-hover:text-white'>Diablo® IV</span>
         </div>
         <div className='hover:bg-black w-full h-[176px] flex flex-col justify-center items-center rounded-[4px] group'>
           <div className='w-full max-w-[69.4px] group-hover:scale-125'>
             <img className='w-full' src={diabloImmortal} alt="diablo immortal icon" />
           </div>
-          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray hover:text-white'>Diablo® Immortal</span>
+          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray group-hover:text-white'>Diablo® Immortal</span>
         </div>
         <div className='hover:bg-black w-full h-[176px] flex flex-col justify-center items-center rounded-[4px] group'>
           <div className='w-full max-w-[69.4px] group-hover:scale-125'>
             <img className='w-full' src={diablo3} alt="diablo 3 icon" />
           </div>
-          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray hover:text-white'>Diablo® III</span>
+          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray group-hover:text-white'>Diablo® III</span>
         </div>
         <div className='hover:bg-black w-full h-[176px] flex flex-col justify-center items-center rounded-[4px] group'>
           <div className='w-full max-w-[69.4px] group-hover:scale-125'>
             <img className='w-full' src={starcraft2} alt="starcraft 2 icon" />
           </div>
-          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray hover:text-white'>StarCraft® II</span>
+          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray group-hover:text-white'>StarCraft® II</span>
         </div>
         <div className='hover:bg-black w-full h-[176px] flex flex-col justify-center items-center rounded-[4px] group'>
           <div className='w-full max-w-[69.4px] group-hover:scale-125'>
             <img className='w-full' src={starcraftRemastered} alt="starcraft remastered icon" />
           </div>
-          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray hover:text-white'>StarCraft® Remastered</span>
+          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray group-hover:text-white'>StarCraft® Remastered</span>
         </div>
         <div className='hover:bg-black w-full h-[176px] flex flex-col justify-center items-center rounded-[4px] group'>
           <div className='w-full max-w-[69.4px] group-hover:scale-125'>
             <img className='w-full' src={arcadeBlizzard} alt="arcade blizzard icon" />
           </div>
-          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray'>Arcade da Blizzard®</span>
+          <span className='w-full max-w-[105px] text-center font-medium text-custom-gray group-hover:text-white'>Arcade da Blizzard®</span>
         </div>
       </div>
       <div className='flex justify-center items-center bg-custom-black-two w-full h-[70px]'>
