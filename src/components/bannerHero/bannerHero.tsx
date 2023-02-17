@@ -74,7 +74,7 @@ const BannerHero = function () {
   });
 
   return (
-    <div className={`${games[selectedGame]?.bg} bg-cover bg-center w-full h-[736px] sm:h-[622px] flex justify-center items-center transition-all ease-in-out delay-75 duration-700 px-[41px] sm:px-[21px]`}>
+    <div className={`${games[selectedGame]?.bg} bg-cover bg-center w-full bg-[black] h-[736px] sm:h-[622px] flex justify-center items-center transition-all ease-in-out delay-75 duration-700 px-[41px] sm:px-[21px]`}>
       <div className='flex justify-center items-center max-w-[1312px] w-full relative'>
         <div className='flex w-full justify-between items-center'>
           <div className='flex md:flex-wrap sm:mt-[51px] z-10 max-w-[770px] w-full justify-between'>
